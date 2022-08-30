@@ -19,7 +19,7 @@ def validate_acc_nums():
         print("Numbers differ here: ", end="")
         for i in index_err_record:
             print(f"{' '*(i - prev)}^", end="")
-            prev = i + 1
+            prev = (i+1)
     else:
         print(f"SUCCESS: BOTH ACCOUNT NUMBERS MATCH.\n"
               f"Real payment number: {check_pymnt_num}\n"
